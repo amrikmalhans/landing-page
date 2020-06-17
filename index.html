@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://use.fontawesome.com/bae1d087e9.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <title>Business</title>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </span>
+        <a href="#" class="logo"><ion-icon class="logo-nav" name="leaf"></ion-icon></a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Services</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        
+
+        <div class="hero-box">
+            <h1>Based on <br> Modern Business</h1>
+            <p>We blend insights and strategy to create <br> digital products for forward-thinking organisations.</p>
+            <a href="#" class="primary-btn">Get Started</a>
+            <a href="#" class="secondary-btn">Download</a>
+
+        </div>
+    </header>
+    <section class="services-section">
+        <div class="row">
+            <h2>Our Services</h2>
+            <p>Stop wasting time and money designing and managing a Business <br> that doesn’t get results. Happiness guaranteed!</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="flex-div">
+                    <h3>Architect <br> Design</h3>
+                    <ion-icon class="icon-service" name="color-palette-outline"></ion-icon>
+                </div>
+                <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+                <a href="#" class="more-link">Learn more</a>
+            </div>
+            <div class="grid-item">
+                <div class="flex-div">
+                    <h3>idea <br> execution</h3>
+                    <ion-icon class="icon-service" name="color-wand-outline"></ion-icon>
+                </div>
+                <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+                <a href="#" class="more-link">Learn more</a>
+            </div>
+            <div class="grid-item">
+                <div class="flex-div">
+                    <h3>business <br> plans</h3>
+                    <ion-icon class="icon-service" name="images-outline"></ion-icon>
+                </div>
+                <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+                <a href="#" class="more-link">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-section">
+        <h2>Featured Works</h2>
+        <p>Stop wasting time and money designing and managing a business <br> that doesn’t get results. Happiness guaranteed!</p>
+        <div class="row">
+            <div id="myBtnContainer">
+                <li class="work-btn active" onclick="filterSelection('all')"> Show all</li>
+                <li class="work-btn" onclick="filterSelection('branding')"> branding</li>
+                <li class="work-btn" onclick="filterSelection('research')"> research</li>
+                <li class="work-btn" onclick="filterSelection('planning')"> planning</li>
+                <li class="work-btn" onclick="filterSelection('business')"> business</li>
+              </div>
+              
+              <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+              <div class="container grid-container-2">
+                <div class="filterDiv grid-item-2 research research"><img width="270px" height="220px" src="img/work-1.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 business planning"><img width="270px" height="220px" src="img/work-2.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 branding business"><img width="270px" height="220px" src="img/work-3.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 business planning"><img width="270px" height="220px" src="img/work-4.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 branding research"><img width="270px" height="220px" src="img/work-5.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 business branding"><img width="270px" height="220px" src="img/work-6.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 research planning"><img width="270px" height="220px" src="img/work-7.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 research research"><img width="270px" height="220px" src="img/work-8.jpg" alt="work-img" /></div>
+                <div class="filterDiv grid-item-2 planning business"><img width="270px" height="220px" src="img/work-9.jpg" alt="work-img" /></div>
+              </div>
+        </div>
+
+    </section>
+
+    <section class="price-section">
+        <h2>Pricing Plans</h2>
+        <p>Stop wasting time and money designing and managing a business<br> that doesn’t get results. Happiness guaranteed!</p>
+
+        <div class="grid-container-3">
+            <div class="grid-item-3">
+                <img src="img/scooter.png" width="200px" />
+                <h4>Basic</h4>
+                <span>$ 199/month</span>
+                <p>Carefully crafted components<br>
+                    Amazing page examples</p>
+                <a href="#" class="primary-btn">Get Started</a>
+            </div>
+            <div class="grid-item-3">
+                <img src="img/transportation.png" width="200px" />
+                <h4>Pro</h4>
+                <span>$ 399/month</span>
+                <p>Carefully crafted components<br>
+                    Amazing page examples</p>
+                <a href="#" class="primary-btn">Get Started</a>
+            </div>
+            <div class="grid-item-3">
+                <img src="img/plane.png" width="200px" />
+                <h4>Enterprise</h4>
+                <span>$ 699/month</span>
+                <p>Carefully crafted components<br>
+                    Amazing page examples</p>
+                <a href="#" class="primary-btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="row">
+            <div class="test-text">
+                <h5>testimonials</h5>
+                <h2>What clients says <br> about us</h2>
+                <p>Duis et metus et massa tempus lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ultricies, orci molestie blandit interdum.<br>
+                    <br>
+                    ipsum ante pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci molestie blandit interdum.</p>
+            </div>
+            <div class="test-card">
+                <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."</p>
+                
+                <div class="client-info">
+                    <img src="img/customer-1.jpg" alt="client-img" />
+                    <div>
+                        <p>Mr. Jems Bond</p>
+                        <p>CEO Of Pied Piper</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
